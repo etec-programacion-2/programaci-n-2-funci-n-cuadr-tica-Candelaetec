@@ -15,5 +15,16 @@ fun main() {
         println("El término A no es 0.")
     }
 
-    println ("$TermA x² + $TermB x + $TermC")
+    for (i in -5..5) {
+        val x = i.toDouble()
+        println("x = $x")
+        println("f(x) = ${calcularF(TermA, TermB, TermC, x)}")
+    }
+    println("${TermA}x² + ${TermB}x + ${TermC}")
 }
+
+fun calcularF(TermA: Double, TermB: Double, TermC: Double, x: Double): Double {
+    return TermA * x * x + TermB * x + TermC
+}
+
+
