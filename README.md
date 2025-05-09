@@ -1,8 +1,8 @@
 # 2025-calculo-cuadratica
 
 ## Datos del Alumno
-- **Nombre**: [Nombre del Alumno]
-- **Apellido**: [Apellido del Alumno]
+- **Nombre**: Candela
+- **Apellido**: De la Cruz
 
 ## Descripción del Proyecto
 Este proyecto consiste en desarrollar una aplicación en Kotlin que permita calcular y mostrar los valores de una función cuadrática, así como determinar sus raíces.
